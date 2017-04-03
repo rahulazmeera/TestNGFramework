@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <!-- provide the suite name first -->
+<suite name="testing frame work">
+
+<!--  provide the test name for testng to validate -->
+<test name="validation test">
+<!-- next assign the which groups should be executed in the xml file by assignng the packagename.classname as below -->
+<groups>
+<!-- you can add as mny groups as you need in this testing frame work -->
+<run>
+<include name="Priority1"/>
+</run>
+</groups>
+<!-- after group should assign the classes as package name .class name -->
+<classes>
+
+
+<class name="framework.frameworktestingone"/>
+</classes>
+
+
+</test>
+</suite>

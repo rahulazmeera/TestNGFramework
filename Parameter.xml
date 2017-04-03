@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+ <!-- provide the suite name first -->
+<suite name="testing frame work">
+
+<!--  provide the test name for testng to validate -->
+<test name="validation test">
+<!-- next assign the which groups should be executed in the xml file by assignng the packagename.classname as below -->
+<!-- providing dynamic data from te xml file use parameter -->
+<parameter name="UsereID" value="azmeera"/>
+<!-- after group should assign the classes as package name .class name -->
+<classes>
+
+<class name="framework.frameworktestingone"/>
+</classes>
+
+
+</test>
+</suite>
